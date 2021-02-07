@@ -12,6 +12,10 @@ public class user {
         this.password = password;
         this.credit = credit;
     }
+    
+    public String toString(){
+        return userName + " " + password + " " + credit;
+    }
 
     public String getUserName() {
         return userName;

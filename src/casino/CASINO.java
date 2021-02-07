@@ -6,6 +6,7 @@ public class CASINO {
 
     private static Scanner input = new Scanner(System.in);
     private static ArrayList<user> userList = new ArrayList<>();
+    private static ArrayList<login> loginList = new ArrayList<>();
 
     public static void main(String[] args) {
         //username, password, credit
@@ -45,6 +46,9 @@ public class CASINO {
             String logInUsername = input.next();
             System.out.println("Enter your password");
             String logInPassword = input.next();
+            if (logInUsername && logInPassword == Login.get){
+            
+        }
            
         }
         
@@ -64,13 +68,19 @@ public class CASINO {
         System.out.println(myUser.toString());
         userList.add(myUser);
         
+        login myLogin = new login (username, password);
+        System.out.println(myLogin.toString());
+        loginList.add(myLogin);
+        
     }
     
     public static void game1(){
+        //higher lower
         
     }
     
     public static void game2(){
+        //
     
     }
     

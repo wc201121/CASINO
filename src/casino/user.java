@@ -1,19 +1,19 @@
-
 package casino;
 //username password credit
 
 public class user {
+
     private String userName;
     private String password;
     private int credit;
-    
-    public user (String userName, String password, int credit){
+
+    public user(String userName, String password, int credit) {
         this.userName = userName;
         this.password = password;
         this.credit = credit;
     }
-    
-    public String toString(){
+
+    public String toString() {
         return userName + " " + password + " " + credit;
     }
 
@@ -40,7 +40,5 @@ public class user {
     public void setCredit(int credit) {
         this.credit = credit;
     }
-    
-    
-    
+
 }

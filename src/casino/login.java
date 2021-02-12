@@ -1,6 +1,7 @@
+//not used but can be used
 package casino;
 
-public class login{
+public class login {
 
     private String user;
     private String password;
